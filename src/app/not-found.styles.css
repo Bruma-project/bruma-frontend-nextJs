@@ -38,7 +38,9 @@ h1 {
   margin-bottom: 0%;
   margin-top: 0%;
 }
-
+span {
+  font-family: "Source Sans Pro";
+}
 h2 {
   font-size: 28px;
   font-family: "Source Sans Pro";

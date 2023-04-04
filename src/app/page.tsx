@@ -1,6 +1,7 @@
 "use client";
 import { HomeStyle } from "./styles";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,9 +17,9 @@ export default function Home() {
               CON LA HERRAMIENTA DE <span>PROJECT BRUMA</span> VAS A PODER CREAR
               TU PROPIO PERSONAJE DE PATHFINDER EN SEGUNDOS.
             </p>
-            <a href="/auth/login">
+            <Link href={"/auth/login"}>
               <button>REGISTRARSE GRATIS</button>
-            </a>
+            </Link>
           </div>
           <div className="contenedorImagenSeccion2">
             <Image
@@ -119,9 +120,9 @@ export default function Home() {
             width={700}
             height={500}
           />
-          <a href="/auth/login">
+          <Link href={"/auth/login"}>
             <button>REGISTRATE AHORA</button>
-          </a>
+          </Link>
         </div>
       </section>
     </HomeStyle>
